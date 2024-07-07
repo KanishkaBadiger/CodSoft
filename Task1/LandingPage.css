@@ -1,0 +1,179 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    /* background-color: #000000;
+    color: rgb(255,255,255); */
+    overflow: hidden;
+    
+}
+
+/* .main{
+    display: flex;
+    height: 100vh;
+    padding: 0.5rem;
+} */
+
+.header{
+    /* margin-right:50px ; */
+    display: flex;
+    padding: 0 1.875rem;
+    background-color:#ffffff;
+    height:5rem;
+    /* width:100%; */
+    /* flex: 2; */
+    /* overflow:auto; */
+
+}
+
+.logoImg{
+    /* margin-right: 17.5rem; */
+    width:50rem;
+   
+    border: black;
+}
+
+.headerOptions{
+    padding: 1.25rem 0 1.25rem 0;   
+}
+
+.headerOptions a span{
+    color:#640790;
+    /* height: 30px; */
+    font-size: 1.563rem;
+}
+
+.headerOptions a{
+    text-decoration:none;
+}
+
+.sale{
+    padding-right:1.875rem;
+}
+
+.shop{
+    padding-right:1.875rem;
+}
+
+.exhibits{
+    padding-right:1.875rem;
+}
+
+.about{
+    padding-right:1.875rem;
+}
+
+/* .fa-regular{
+    margin-left: 40.625rem;
+    padding: 1.563rem 0 1.563rem 0;
+    /* height: 55px; */
+    /* width: 1.563rem;
+    font-size: 1.563rem;
+    color: #640790; */
+/* } */ 
+
+.sticky-nav{
+    position: sticky;
+    top: 0;
+    display: flex;
+    /* background-color: #121212; */
+    width: 100%;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+    z-index: 10;
+    
+    
+}
+
+.nav-items{
+    margin-right: 1rem;
+}
+
+.sticky-nav-options{
+    /* display: flex; */
+    /* justify-content:flex-end; */
+    /* align-content:flex-end; */
+    font-size: 1.563rem;
+    color: #640790;
+    
+    
+}
+/*---------------------------------------------#1---------------------------------------------------*/
+
+
+
+.backgroundPhoto{
+    background-color: rgb(207, 123, 20);
+}
+
+
+
+/*---------------------------------------------#2---------------------------------------------------*/
+
+.efforts{
+    background-color: #F5EFE9;
+    display: flex;
+    height:365px;
+    font-family:'Times New Roman', Times, serif;
+    
+
+}
+
+.eff1{
+    width: 50%;
+    /* border:solid 2px #640790; */
+    
+    
+}
+
+.eff2{
+    width: 50%;
+    /* border:solid 2px #640790; */
+    align-content: center;
+    justify-content: center;
+    padding: 0 28.5px;
+    font-size: 20px;
+}
+
+.eff2 h1{
+    margin: 0 0 15.5px;
+}
+
+.li-mar{
+    margin: 0 0 8px;
+}
+
+.checkMaterials{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.social_media{
+    background-color: rgb(164, 201, 127);
+}
+
+.someposts{
+    background-color: rgb(209, 100, 122);
+}
+
+.helpSection{
+    background-color: cornflowerblue;
+}
